@@ -11,7 +11,7 @@ setuptools.setup(
     description="Real time 8h funding rate vs 4h rolling rate indicator for Deribit exchange",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/Dimasik007/Deribit_funding_rate_indicator",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
