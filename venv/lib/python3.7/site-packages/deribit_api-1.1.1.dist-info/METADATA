@@ -1,0 +1,40 @@
+Metadata-Version: 2.0
+Name: deribit-api
+Version: 1.1.1
+Summary: API Client for Deribit API
+Home-page: https://github.com/deribit/deribit-api-python
+Author: Deribit
+Author-email: contact@deribit.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Keywords: deribit api
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: requests
+
+API Client from Deribit API
+===========================
+
+API client for `Deribit API`_. 
+
+Full documentation is available at `https://github.com/deribit/deribit-api-python`_.
+
+Simple example:
+::
+
+    from deribit_api import RestClient
+    client = RestClient("KEY", "SECRET")
+    client.index()
+    client.account()
+
+.. _`Deribit API`: https://www.deribit.com/docs/api/
+.. _`https://github.com/deribit/deribit-api-python`: https://github.com/deribit/deribit-api-python
+
