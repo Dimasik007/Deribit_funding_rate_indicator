@@ -1,4 +1,4 @@
-# `Deribit Funding Rate Indicator
+# Deribit Funding Rate Indicator
 
 Indicator that shows current 8h funding rate and average 4h funding rate on Deribit exchange in real time for BTC. 
 
@@ -25,6 +25,7 @@ Mac/Linux: `python3 plot_now.py`
 `bokeh serve --show plot_now.py`
 
 6) After that, a new window in your default browser will pop up and you will see the running indicator.
+
 On hoovering your cursor below the right side of the graph, you will see a menu to the control the chart.
 
 
@@ -42,7 +43,7 @@ Pandas 0.25.0 - library providing high-performance data structures and data anal
 To install: 
 `pip install pandas`
 
-Author
+#### Author
 
 Dmytro Vnukov
 
