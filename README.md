@@ -30,7 +30,8 @@ From the shell/terminal:
 
 `bokeh serve --show plot_now.py`
 
-6) After that, a new window in your default browser will pop up and you will see the running indicator.
+6) After that, a new window in your default browser will pop up and you will see the running indicator. Let it run for several
+minutes for the time on x axis to show minutes and seconds. 
 
 On hoovering your cursor below the right side of the graph, you will see a menu to the control the chart.
 
