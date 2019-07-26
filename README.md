@@ -28,6 +28,8 @@ Mac/Linux: `python3 plot_now.py`
 
 On hoovering your cursor below the right side of the graph, you will see a menu to the control the chart.
 
+7) To stop indicator, close the browser window or shut down terminal/shell window
+
 
 #### Prerequisites / Built With
 
