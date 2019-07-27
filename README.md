@@ -1,6 +1,8 @@
 # Deribit Funding Rate Indicator
 
-Indicator that shows current 8h funding rate and average 4h funding rate on Deribit exchange in real time for BTC. 
+Indicator that shows current 8h funding rate and average 4h funding rate on Deribit exchange in real time for BTC.
+
+![](images/indicator_preview.png)
 
 ### Getting Started
 
