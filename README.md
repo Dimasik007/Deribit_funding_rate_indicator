@@ -4,6 +4,8 @@ Indicator that shows current 8h funding rate and average 4h funding rate on Deri
 
 ![](images/indicator_preview.png)
 
+![](images/deribit_funding_rate_screenshot.png)
+
 ### Getting Started
 
 1) You should have Python 3.7 installed. --> https://www.python.org/downloads/

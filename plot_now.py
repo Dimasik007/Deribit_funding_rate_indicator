@@ -13,11 +13,10 @@ source = ColumnDataSource(df)  # to map column names and lists of data (to plot 
 def update():
     """ get json object from the exchange and access timestamp and 8h funding rate from it
      attach this to dataframe and plot the last row"""
-    # TODO check if this is the right funding_8h rate
     raw = requests.get('https://test.deribit.com/api/v2/public/ticker?instrument_name=BTC-PERPETUAL')
     raw_json = raw.json()
     time_stamp = int(raw_json['result']['timestamp'])
-    rate = raw_json['result']['funding_8h']
+    rate = raw_json['result']['current_funding']
 
     global df  # access df from outer scope
     df = df.append({'time': time_stamp, 'funding_rate': rate}, ignore_index=True)
